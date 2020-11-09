@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015"], // API should TSC assume exist in our environment
+    "module": "commonjs", // Module system that TSC compile our code (others SystemJS, ES2015)
+    "outDir": "dist", // Folder that TSC will put the generated Javascript code
+    "sourceMap": true, // Helpful for debugging code
+    "strict": true, // Be strict as possible when checking for invalid code
+    "target": "es2015" // Javascript version that TSC should compile our code
+  },
+  "include": ["src"] // Folder that TypeScript Compiler look in to find TypeScript files
+}
