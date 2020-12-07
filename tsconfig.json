@@ -5,7 +5,8 @@
     "outDir": "dist", // Folder that TSC will put the generated Javascript code
     "sourceMap": true, // Helpful for debugging code
     "strict": true, // Be strict as possible when checking for invalid code
-    "target": "es2015" // Javascript version that TSC should compile our code
+    "target": "es2015", // Javascript version that TSC should compile our code
+    "noImplicitAny": false
   },
   "include": ["src"] // Folder that TypeScript Compiler look in to find TypeScript files
 }
